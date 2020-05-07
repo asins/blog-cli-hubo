@@ -1,0 +1,47 @@
+baseURL = "https://blog.nootn.com/"
+languageCode = "zh-cn"
+title = "简单其实不简单"
+theme = "hugo-lamp"
+# googleAnalytics = "UA-22926366-1"       # Google Analytics UA number
+uglyurls = true
+
+[params]
+  # mainSections = ["posts"]
+  subtitle = "Actually, simplicity is not simple."
+  author = "Asins"
+  logo = "/img/avatar.jpg"
+  description = "想做到简单，真心不易"
+  paginate = 20
+
+  # Publisher
+  ## adsensePublisher = "ca-pub-XXX"    # Required if you want to include Google Adsense
+  # adsenseSlot = "XXX"                   # Required slot to display ads
+  # adsenseSlotSticky = "XXX"             # Enables sticky ads feature, value maybe the same with adsenseSlot, remove if you don't want display sticky ads
+
+  # SEO configs
+  # seotitle = "简单其实不简单"
+  # googleSiteVerification = "google_site_verification_code"    # Google Webmaster
+  # msValidate = "bing_site_verification_code"                  # Bing Webmaster
+
+  # Social networks
+  # email = "name@domain.com"
+  github = "asins"
+  twitter = "asinsimple"
+  # facebook = "asins"
+  # dribbble = "dribbble_username"
+
+[taxonomies]
+  tag = "tags"
+  category = "categories"
+
+# [[menu.main]]
+#   name = "简单其实不简单"
+#   weight = 1
+#   identifier = "hugo"
+#   url = "/post/"
+# [[menu.main]]
+#   name = "Tags"
+#   weight = 3
+#   identifier = "tags"
+#   url = "/tags/"
+
